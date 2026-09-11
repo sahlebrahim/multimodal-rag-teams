@@ -13,7 +13,7 @@ Work in progress
 
 
 ## Repo layout
-- `ingestion/` : PDF → markdown + extracted images
+- `extraction/` : PDF → markdown + extracted images
 - `enrichment/` : vision-model image descriptions injected into the markdown
 - `infra/` : Bicep templates (resource group, storage, Azure AI Search)
 - `search/` : index, skillset, data source, indexer definitions
