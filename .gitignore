@@ -10,4 +10,7 @@ bin/
 obj/
 .ipynb_checkpoints/
 notebooks/
-data/extracted/
+data/extracted/*
+!data/extracted/images/
+!data/extracted/descriptions.json
+!data/extracted/sample.md
