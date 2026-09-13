@@ -1,2 +1,5 @@
 pymupdf
 pymupdf4llm
+openai
+azure-identity
+python-dotenv
