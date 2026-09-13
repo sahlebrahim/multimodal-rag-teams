@@ -98,8 +98,7 @@ def rewrite(content, cache):
 def write_sample(out_dir, cache, n):
     blocks = []
     for name, desc in list(cache.items())[:n]:
-        path = (out_dir / "images" / name).as_posix()
-        blocks.append(f"## {name}\n\n![]({path})\n\n{desc}\n")
+        blocks.append(f"## {name}\n\n![](images/{name})\n\n{desc}\n")
     (out_dir / "sample.md").write_text("\n".join(blocks), encoding="utf-8")
 
 
