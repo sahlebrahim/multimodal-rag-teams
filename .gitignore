@@ -14,3 +14,5 @@ data/extracted/*
 !data/extracted/images/
 !data/extracted/descriptions.json
 !data/extracted/sample.md
+.sfdx/
+.sf/
